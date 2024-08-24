@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: white;
+}
+
+header {
+    
+    width: 90%;
+    margin: 50px auto;
+    display:flex;
+    justify-content: space-between;
+} 
+.btn {
+    background-color: rgb(68, 104, 224);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(43, 43, 167);
+    cursor: pointer;
+    transition: 0.5s;
+}
+#Higlights-Section{
+    width: 70%;
+    margin: 50px auto;
+}
+#Higlights-Section > h2 { 
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 2px 2px 8px #a35353;
+    margin-bottom: 25px;
+
+}
+#Higlights-Section > p {
+    margin: 0 auto;
+    width: 50%;
+ color: rgb(92, 74, 74);   
+ text-align: center;
+ margin-bottom: 50px;
+}
+#buy-now-button{
+    display: flex;
+    justify-content: center;
+}
+#iphone-pic-section {
+    width: 55%;
+    margin: 50px auto;
+}
+#iphone-pic-section img {
+    width: 100%;
+}
+#search-section {
+    width: 70%;
+    margin: 50px auto;
+}
+#search-section > h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#search-container {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(248, 217, 179);
+    display: flex;
+}
+#search-bar{
+    width: 75%;
+}
+#search-bar > input[type="text"] {
+    padding: 16px;
+    border: none;
+    outline: none;
+    width: 70%;
+    background-color: rgb(248, 217, 179) ;
+}
+#search-button{
+    width: 25%;
+}
+#card-section{
+  max-width: 25px;
+  padding: 115px;
+  height: 40px;
+  display: grid ;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.card {
+    height: 90%;
+    border: 2px solid rgb(92, 90, 90);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.card-image {
+    background-color: rgb(171, 231, 231);
+    border-radius: 8px;
+}
+.card-image:hover {
+    background-color: rgb(41, 185, 28);
+    transition: 0.45s;
+}
+.card-title {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.card-description {
+    text-align: center;
+}
+.card-price {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.card-button {
+    text-align: center;
+}
+#loading-section{
+    display: flex;
+    justify-content: center;
+    .hidden {
+        display: none;
+    }
+    /* HTML: <div class="loader"></div> */
+.loader {
+    width: 50px;
+    padding: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #25b09b;
+    --_m: 
+      conic-gradient(#0000 10%,#000),
+      linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+            mask: var(--_m);
+    -webkit-mask-composite: source-out;
+            mask-composite: subtract;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {to{transform: rotate(1turn)}}
+}
+
+
+
+
+
+
+
+
+
+
+
+
